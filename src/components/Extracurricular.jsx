@@ -115,7 +115,7 @@ const Extracurricular = () => {
             stretch: 0,
             depth: 100,
             modifier: 1,
-            slideShadows: false, // Disable slide shadows entirely
+            slideShadows: false, 
           }}
           pagination={{
             clickable: true,
@@ -215,5 +215,6 @@ const Extracurricular = () => {
     </div>
   );
 };
+
 
 export default SectionWrapper(Extracurricular, "extracurricular");

@@ -134,33 +134,33 @@ const About = () => {
             className="mt-4 text-secondary text-[17px] max-w-3xl space-y-6 list-none"
           >
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.1, 0.75)}>
-              <span className="mr-4 text-2xl flex-shrink-0">👨‍💻</span>
+              <span className="mr-4 text-2xl flex-shrink-0">📊</span>
               <span>
-                I'm 
+                I'm a data enthusiast who is seeking to leverage my skills in machine learning to drive business decisions and deliver real value.
               </span>
             </motion.li>
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.2, 0.75)}>
               <span className="mr-4 text-2xl flex-shrink-0">🎓</span>
               <span>
-                I am currently in my second-year working toward my Honours Bachelor of Science in Statistics at the University of Toronto. I&apos;m all about building reliable, scalable software that makes a difference.
+                I am currently in my second-year working toward my Honours Bachelor of Science in Statistics at University of Toronto. 
               </span>
             </motion.li>
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.3, 0.75)}>
               <span className="mr-4 text-2xl flex-shrink-0">🛠</span>
               <span>
-                From full-stack development to cloud-based solutions, I&apos;ve led enterprise-level projects that streamline operations and deliver real impact.
+              From crafting intelligent models to innovative data solutions, I have developed projects that transform raw data into actionable insights.
               </span>
             </motion.li>
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.4, 0.75)}>
-              <span className="mr-4 text-2xl flex-shrink-0">🔧</span>
+              <span className="mr-4 text-2xl flex-shrink-0">📈</span>
               <span>
-                I enjoy automating workflows, optimizing systems, and turning complex challenges into real results. 📈
+                I excel in automating data processes, optimizing machine learning models, and overcoming difficult challenges in the data science field.
               </span>
             </motion.li>
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.5, 0.75)}>
-              <span className="mr-4 text-2xl flex-shrink-0">💡</span>
+              <span className="mr-4 text-2xl flex-shrink-0">🚀</span>
               <span>
-                I&apos;m always curious and constantly learning.
+                I embrace life as a challenge and am always looking for new opportunities to grow.
               </span>
             </motion.li>
           </motion.ul>

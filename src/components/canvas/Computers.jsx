@@ -10,7 +10,7 @@ const Computers = ({ isMobile }) => {
 
   useFrame((state, delta) => {
     if (meshRef.current && isMobile) {
-      meshRef.current.rotation.y += delta * 0.5; // Adjust rotation speed as needed
+      meshRef.current.rotation.y += delta * 0.5; 
     }
   });
 

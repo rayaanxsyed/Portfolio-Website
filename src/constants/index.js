@@ -4,51 +4,18 @@ import {
   web,
   fullstack,
   javascript,
-  java,
   html,
   css,
   reactjs,
-  ubuntu,
   tailwind,
-  postgresql,
   git,
   uoft,
-  rhhs,
-  wonderland,
-  mackenziehealth,
-  privcurity,
-  google,
-  whmis,
-  aws,
-  python,
-  cplusplus,
-  typescript,
-  sunnifyimage,
-  knifethrowimage,
-  pythonanalysis,
-  password_generator,
-  // wordsearch,
-  powershell,
-  cisco,
-  connectwise,
-  virtualbox,
-  kalilinux,
-  wireshark,
-  nmap,
-  metasploit,
-  johntheripper,
-  hydra,
-  aircrackng,
-  photoshop,
-  premiere,
-  cinema4d,
-  blender,
-  connectwisecert,
-  awsdbcert,
-  financialflowimage,
-  enterpriseapitester,
   github,
-  mongodb,
+  google,
+  python,
+  ibm,
+  blackimage,
+  waterloouni,
 } from "../assets";
 
 export const navLinks = [
@@ -67,10 +34,6 @@ export const navLinks = [
   {
     id: "extracurricular",
     title: "Certifications",
-  },
-  {
-    id: "skills",
-    title: "Skills",
   },
   {
     id: "projects",
@@ -112,49 +75,13 @@ const education = [
       "Notable Courses:  Computer Science I (Python Focused), Computer Science II (C focused), Multivariable Calculus I & II, Introduction to Data Science, Linear Algebra I & II, Introduction to Probability."
     ]
     ,
-  },
-  {
-    title: "High School",
-    company_name: "Richmond Hill High School, ON",
-    icon: rhhs,
-    iconBg: "#fff",
-    date: "2018-2022",
-    points: [
-      "Ontario Scholar",
-      "12th Grade: 96%",
-      ,
-    ],
-  },
+  }
 ];
 
 const technologies = [
   {
-    name: "Java",
-    icon: java,
-  },
-  {
     name: "Python",
     icon: python,
-  },
-  {
-    name: "C++",
-    icon: cplusplus,
-  },
-    {
-    name: "Powershell",
-    icon: powershell,
-  },
-  {
-    name: "Kali Linux",
-    icon: kalilinux,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "PostGreSQL",
-    icon: postgresql,
   },
   {
     name: "JavaScript",
@@ -172,347 +99,98 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Typescript",
-    icon: typescript,
-  },
-  {
-    name: "AWS",
-    icon: aws,
-  },
 ];
 
-const itTools = [
-  {
-    name: "Powershell",
-    icon: powershell,
-  },
-  {
-    name: "Cisco",
-    icon: cisco,
-  },
-  {
-    name: "ConnectWise",
-    icon: connectwise,
-  },
-  {
-    name: "VirtualBox",
-    icon: virtualbox,
-  },
-];
 
-const cybersecurityTools = [
-  {
-    name: "Kali Linux",
-    icon: kalilinux,
-  },
-  {
-    name: "Wireshark",
-    icon: wireshark,
-  },
-  {
-    name: "Nmap",
-    icon: nmap,
-  },
-  {
-    name: "Metasploit",
-    icon: metasploit,
-  },
-  {
-    name: "John the Ripper",
-    icon: johntheripper,
-  },
-  {
-    name: "Hydra",
-    icon: hydra,
-  },
-  {
-    name: "Aircrack-ng",
-    icon: aircrackng,
-  },
-];
-
-const designTools = [
-  {
-    name: "Photoshop",
-    icon: photoshop,
-  },
-  {
-    name: "Premiere",
-    icon: premiere,
-  },
-  {
-    name: "Cinema 4D",
-    icon: cinema4d,
-  },
-  {
-    name: "Blender",
-    icon: blender,
-  },
-];
 
 const experiences = [
   {
-    title: "IT Technician lll",
-    company_name: "Canada's Wonderland",
-    icon: wonderland,
+    title: "Machine Learning Bootcamp Candidate",
+    company_name: "University of Toronto",
+    icon: uoft,
     iconBg: "#fff",
-    date: "Jun 2023 - Present",
+    date: "Sept. 2024 - Present",
     points: [
-      "Led Tier 1-3/L3 migration and deployment for 2000+ devices on domain, ensuring seemless park-wide operations.",
-      "Automated tasks with PowerShell and ConnectWise on locally hosted virtual machines.",
-      "Architected Windows MDT from scratch, enabling PXE boot, and sysprepped 15+ clean volumes for scalable PC deployment.",
-      "Integrated SMB file shares with ACLs, configured Print Server roles, and optimized Azure.",
-      "Optimized DNS zones and DHCP failover with RSAT, leveraging subnetting for high availability.",
-      "Deployed POS/KDS/Debit systems using Oracle EMC and Simphony.",
+      "Acquired hands-on experience with Pandas framework in Python for data preprocessing and data visualization",
+      "Attained greater insight into modeling techniques such as supervised learning, semi-supervised learning, and reinforcement learning",
   ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Mackenzie Health Hospital",
-    icon: mackenziehealth,
+    title: "Hacker",
+    company_name: "Waterloo Universtiy",
+    icon: waterloouni,
     iconBg: "#fff",
-    date: "Jan 2023 - Aug 2023 (8 mos.)",
+    date: "May 2024",
     points: [
-      "Deployed 300+ iPads with JamF, enforcing HIPAA-compliant MDM.",
-      "Optimized CDN and load balancing for entertainment app by over 25%* offering IPTV, VOIP, movies, games, and meal ordering.",
-      "Developed NDA software with Java, Python, SQL, and integrated caching with AWS ElastiCache.",
-      "Automated CI/CD workflows with GitLab CI, optimizing workflows for Citrix, VMware, VDI, Hyper-V, ESXi.",
-      "Architected updates with Bash/YAML and audited stability/security of bedside apps.",
-      "Monitored traffic and identified threats using Cortex XDR and Rapid7, reducing security incidents by 30%*.",
-    ],
-  },
-  {
-    title: "Junior System Administrator",
-    company_name: "Privcurity Consulting Corporation",
-    icon: privcurity,
-    iconBg: "#1294C8",
-    date: "May 2021 - Sep 2021 (5 mos.)",
-    points: [
-      "Scaled Azure VMs, implementing Docker/Kubernetes for containerized malware prevention and microservices.",
-      "Automated cloud operations with SSH and Python scripts, optimizing data processing for MySQL databases.",
-      "Secured networks with advanced firewalls, deep packet inspection via Wireshark/tcpdump.",
-      "Implemented 2FA and ML-driven DDoS mitigation, cutting overhead computational cost.",
-      "Built PSA systems on .NET Core/Azure, ensuring encrypted, GDPR-compliant data.",
-      "Deployed Apache Kafka & Zookeeper for fault-tolerant, real-time processing, messaging, and stability.",
+      "Leveraged Google APIs such as Vertex AI and Gemini to create an advanced AI riddle-solving bot",
+      "Implemented machine learning techniques, including supervised learning and fine-tuning, to train the AI model",
     ],
   },
 ];
 
 const extracurricular = [
   {
-    title: "Github Foundations",
-    type: "Professional Certificate",
-    icon: github,
-    iconBg: "#000000",
-    date: "Sep 2024",
-    points: ["Version Control, Git, Actions, CI/CD, Repository Management, SAP Workflow"],
-    credential: "https://www.credly.com/badges/b6f69785-2da8-447e-b02c-3350bf9af803",
-  },
-  {
-    title: "AWS Certified Database Specialty",
-    type: "Most Advanced Professional Credential",
-    icon: aws,
-    iconBg: "#FFFFFF",
-    date: "Issued: Aug 14, 2024 | Expiry: Aug 16, 2027",
-    points: ["Cloud-Native Architecture, Multi-Region Data Replication, Automated Tuning and Query Optimization, IAM, Clustering, Distributed Databases, SQL/NoSQL, Legacy Cloud Integration"],
-    credential: awsdbcert,
-  },
-  {
-    title: "Certified Enterprise Scripting Architect",
-    type: "Automate | Connectwise University",
-    icon: connectwise,
-    iconBg: "#748C7B",
-    date: "Jul 2024",
-    points: ["RMM, MDM, Powershell, Scripting, Windows Server, Enterprise Architecture, Query Optimization"],
-    credential: connectwisecert,
-  },
-  {
-    title: "Google IT Automation With Python",
-    type: "Professional Certificate",
+    title: "Prompt Design in Vertex AI",
+    type: "Google Cloud",
     icon: google,
-    iconBg: "#050C18",
-    date: "Mar 2023",
-    points: [
-      "Configuration Management, Automation, Google Cloud Platform (GCP), Cloud Servers and VM's, Version Control Tools, Automation.",
-    ],
-    credential: "https://www.coursera.org/account/accomplishments/specialization/certificate/82SZFUWF4B3T",
+    iconBg: "#000000",
+    date: "Issued June 2024 ",
+    points: ["Prompt engineering, Image analysis, and Multimodal Generative Techniques"],
+    credential: "https://www.credly.com/badges/5f1b7e59-62f8-4091-8305-8cb295a5f63f/linked_in_profile",
   },
   {
-    title: "WHMIS (Worker Health and Safety)",
-    type: "Government Workforce Requirement",
-    icon: whmis,
-    iconBg: "#CCCFD8",
-    date: "Sep 2020",
-    points: ["Hazard Awareness, Legal Compliance, Personal Protection, Accident Prevention"],
-  },
+    title: "Getting Started with Data" ,
+    type: "IBM SkillsBuild",
+    icon: ibm,
+    iconBg: "#FFFFFF",
+    date: "Issued June 2024",
+    points: ["Big data, the Data Analytics process, Data Visualization, and the Data Science landscape"],
+    credential: "https://www.credly.com/earner/earned/badge/b621bb79-64e5-4665-8a9c-f57e032d4d6a",
+  }
 ];
 
 const projects = [
   {
-    name: "FinancialFlow 💸",
+    name: "Under Work",
     description:
-      "Comprehensive personal finance management application built with Next.js and Typescript. It empowers users to take control of their financial health through intuitive tracking, insightful analytics, and personalized recommendations.",
+      "...",
     tags: [
       {
-        name: "React-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
+        name: "...",
+        color: "...",
+      }
     ],
-    image: financialflowimage,
-    source_code_link: "https://github.com/sunnypatell/financialflow",
-    live_project_link: "https://financial-flow.vercel.app/",
+    image: blackimage,
+    source_code_link: "https://github.com/rayaanxsyed",
+    live_project_link: "https://github.com/rayaanxsyed",
   },
   {
-    name: "Sunnify (Spotify Downloader) ♫",
+    name: "Under Work",
     description:
-      "Sunnify is a Spotify downloader webapp/desktop application that allows you to download entire playlists locally onto your Mac/Linux/Windows PC. The web version of the app is hosted on AWS Lambda and Elastic Beanstalk, with FastAPI ASGI production.",
+      "...",
     tags: [
       {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "webscraping",
-        color: "green-text-gradient",
-      },
-      {
-        name: "AWS Lambda/Beanstalk",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Proxy/API",
-        color: "blue-text-gradient",
-      },
+        name: "...",
+        color: "...",
+      }
     ],
-    image: sunnifyimage,
-    source_code_link: "https://github.com/sunnypatell/sunnify-spotify-downloader",
-    live_project_link: "https://sunnify-spotify-downloader.vercel.app/",
+    image: blackimage,
+    source_code_link: "https://github.com/rayaanxsyed",
+    live_project_link: "https://github.com/rayaanxsyed",
   },
-  {
-    name: "Enterprise API Tester 🌐",
+  {name: "Under Work",
     description:
-      "Comprehensive API testing tool with support for all major HTTP methods, authentication, and CORS-friendly proxy. Features include request import/export, real-world samples, and local storage for data persistence. Built with Next.js, and TypeScript for optimal performance and developer experience.",
+      "...",
     tags: [
       {
-        name: "Typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Authentication-Body",
-        color: "blue-text-gradient",
-      },
+        name: "...",
+        color: "...",
+      }
     ],
-    image: enterpriseapitester,
-    source_code_link: "https://github.com/sunnypatell/enterprise-api-request-tester",
-    live_project_link: "https://enterprise-api-request-tester.vercel.app/",
-  },
-  {
-    name: "KnifeThrow 🎯",
-    description:
-      "KnifeThrow is a Java Swing-based 2D mini-game, packed by maven with over 5000 lines of code. It includes a menu, game-over screens, sound effects, and custom sprites. Players unlock different knives with varied abilities in a dedicated knife shop. The game features improved collision systems, animations, and particle effects for an immersive experience.",
-    tags: [
-      {
-        name: "java",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "swing",
-        color: "green-text-gradient",
-      },
-      {
-        name: "maven",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "arcadegame",
-        color: "green-text-gradient",
-      },
-    ],
-    image: knifethrowimage,
-    source_code_link: "https://github.com/sunnypatell/KnifeThrow",
-    live_project_link: "https://github.com/sunnypatell/KnifeThrow",
-  },
-  {
-    name: "COVID-19 GTA Cases Data Analysis 🧪",
-    description:
-      "A deep dive into ongoing COVID-19 outbreaks in the Greater Toronto Area (GTA), Ontario. Using data from a government-licensed dataset called Outbreaks by Public Health Unit (PHU) to explore trends and patterns in these outbreaks. This data analysis integrates the essential aspects of the data science workflow (Filesize: 3.5 MiB, 62699 lines of raw dataset)",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tensorflow",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scikit-learn",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "pandas",
-        color: "green-text-gradient",
-      },
-      {
-        name: "matplotlib",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "numpy",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: pythonanalysis,
-    source_code_link: "https://drive.google.com/drive/folders/1cTbp-6-flypV-kj3-q606UwwWEralu11",
-    live_project_link: "https://drive.google.com/drive/folders/1cTbp-6-flypV-kj3-q606UwwWEralu11",
-  },
-  {
-    name: "Secure Password Generator 🔐",
-    description:
-      "Secure Password Generator is a Java-based tool designed to generate and manage secure passwords, prioritizing simplicity, security, and user-friendliness. It employs industry-standard encryption algorithms to create strong, unique passwords resistant to common hacking attempts.",
-    tags: [
-      {
-        name: "java",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sha-256",
-        color: "green-text-gradient",
-      },
-      {
-        name: "encryption/decryption",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "data-algorithms",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: password_generator,
-    source_code_link: "https://github.com/sunnypatell/SecurePasswordGenerator",
-    live_project_link: "https://github.com/sunnypatell/SecurePasswordGenerator",
-  },
+    image: blackimage,
+    source_code_link: "https://github.com/rayaanxsyed",
+    live_project_link: "https://github.com/rayaanxsyed",
+  }
 ];
 
 const testimonials = [
@@ -545,9 +223,6 @@ const testimonials = [
 export {
   services,
   technologies,
-  itTools,
-  cybersecurityTools,
-  designTools,
   experiences,
   extracurricular,
   projects,
