@@ -226,6 +226,5 @@ export {
   experiences,
   extracurricular,
   projects,
-  education,
-  testimonials
+  education
 };

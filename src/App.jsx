@@ -2,7 +2,6 @@ import React from 'react'
 import './App.css'
 import { BrowserRouter } from 'react-router-dom'
 import { About, Contact, Education, Experience, Extracurricular, Hero, Navbar, Tech, Works, StarsCanvas } from './components' 
-import Feedbacks from './components/Feedbacks'
 
 function App() {
   return (
